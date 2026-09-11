@@ -1,0 +1,13 @@
+# Secrets — never commit
+.env
+
+# Generated log data (recreate with: python generate_logs.py)
+logs/
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtualenvs
+venv/
+.venv/
